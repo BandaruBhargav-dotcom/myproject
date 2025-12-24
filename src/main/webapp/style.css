@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.jpg");
+    background-color:red; /* optional */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.student-table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 85%;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.student-table th {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+}
+
+.student-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.student-table tr:hover {
+    background-color: #d6eaf8;
+}
+
+.student-table a {
+    padding: 6px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.student-table a[href*="update"] {
+    background-color: #27ae60;
+}
+
+.student-table a[href*="delete"] {
+    background-color: #e74c3c;
+}
